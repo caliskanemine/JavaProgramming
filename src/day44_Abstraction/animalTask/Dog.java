@@ -10,14 +10,14 @@ public final class Dog extends Animal implements Playable{
         System.out.println(getName()+" is barking");
     }
 
-    @Override
+
     public void eat() {
         System.out.println(getName()+" eats Pizza");
     }
 
     public void play(){
-        System.out.println(getName()+" is playing with ball");
+        System.out.println(getName() +" is playing with ball");
     }
 
 
-   }
+}

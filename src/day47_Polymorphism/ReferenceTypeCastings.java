@@ -40,7 +40,7 @@ public class ReferenceTypeCastings {
         Animal animal2= new Cat("Jim", "Scotish", 'M', 3, "Small", "White");
         //Cat cat= (Cat) animal2;
         //cat.Meow();
-        ((Cat) animal2).Meow();
+        ((Cat) animal2).meow();
         //((Dog)animal2).bark(); //ClassCastException
         System.out.println("-------------------------");
 
