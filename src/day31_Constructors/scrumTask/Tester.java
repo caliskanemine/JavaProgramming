@@ -2,18 +2,6 @@ package day31_Constructors.scrumTask;
 
 public class Tester {
 
-    /*
-    create a class called Tester
-	        Attributes:
-	            name, employeeID, JobTitle, Salary
-
-	        Add A constructor that can set all the fileds
-
-	        Actions:
-	           smokeTesting(),  creatingTicket(), dailyStandUp() toString()
-
-     */
-
     public String name;
     public int employeeID;
     public String jobTitle;
@@ -26,7 +14,6 @@ public class Tester {
         this.salary = salary;
     }
 
-    @Override
     public String toString() {
         return "Tester{" +
                 "name='" + name + '\'' +
@@ -45,6 +32,16 @@ public class Tester {
     }
 
 
-
-
 }
+
+
+/*
+create a class called Tester
+	        Attributes:
+	            name, employeeID, JobTitle, Salary
+
+	        Add A constructor that can set all the fields
+
+	        Actions:
+	           smokeTesting(),  creatingTicket(),  toString()
+ */

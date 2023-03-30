@@ -7,13 +7,12 @@ public class Person {
     public int age;
 
     public Person(String name, char gender, int age){
-        this.name= name;
-        this.gender= gender;
-        this.age= age;
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
     }
 
 
-    @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
@@ -21,12 +20,5 @@ public class Person {
                 ", age=" + age +
                 '}';
     }
-
-
-
-
-
-
-
 
 }

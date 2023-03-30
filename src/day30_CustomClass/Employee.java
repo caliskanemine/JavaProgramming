@@ -11,12 +11,17 @@ public class Employee {
     public boolean isFullTime;
 
 
-    public void setInfo(String name, char gender, int age, int id, String jobTitle, double salary, boolean isFullTime){
+    public void setInfo(String name, char gender, int age, int id, String jobTitle, double salary, boolean isFullTime) {
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+        this.id = id;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
+        this.isFullTime = isFullTime;
 
-   }
+    }
 
-
-    @Override
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
@@ -24,14 +29,27 @@ public class Employee {
                 ", age=" + age +
                 ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
-                ", salary=" + salary +
+                ", salary= $" + salary +
                 ", isFullTime=" + isFullTime +
                 '}';
     }
 
+
     public void work(){
-        System.out.println(jobTitle+" "+name+" is working");
+        System.out.println(jobTitle+" "+name +" is working");
     }
 
 
 }
+
+/*
+Employee Class:
+
+		Attributes:
+			name, id, gender, jobTitle, salary, isFullTime(boolean)
+
+		Actions:
+			toString(): to be able to print each employee object
+			setInfo(): to be able to set all the attributes
+			work()...
+ */

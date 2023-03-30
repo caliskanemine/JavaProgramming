@@ -2,27 +2,9 @@ package day31_Constructors;
 
 public class Offer {
 
-    /*
-    1. Create a custom class named Offer
-				Attributes:
-						location, companyName, jobTitle, salary, hasBenefit, hasPTO, isWFH, isFullTime
-
-				Actions:
-					setInfo(): sets all the instance variables
-					toString(): returns the full info of the Offer Object
-
-
-     */
-
-    public String location;
-    public String companyName;
-    public String jobTitle;
+    public String location, companyName, jobTitle;
     public double salary;
-    boolean hasBenefit;
-    boolean hasPTO;
-    boolean isWFH;
-    boolean isFullTime;
-
+    public boolean hasBenefit, hasPTO, isWFH, isFullTime;
 
     public void setInfo(String location, String companyName, String jobTitle, double salary, boolean hasBenefit, boolean hasPTO, boolean isWFH, boolean isFullTime) {
         this.location = location;
@@ -35,7 +17,7 @@ public class Offer {
         this.isFullTime = isFullTime;
     }
 
-    @Override
+
     public String toString() {
         return "Offer{" +
                 "location='" + location + '\'' +
@@ -50,6 +32,13 @@ public class Offer {
     }
 
 
-
-
 }
+/*
+1. Create a custom class named Offer
+        Attributes:
+                location, companyName, jobTitle, salary, hasBenefit, hasPTO, isWFH, isFullTime
+
+        Actions:
+            setInfo(): sets all the instance variables
+            toString(): returns the full info of the Offer Object
+ */

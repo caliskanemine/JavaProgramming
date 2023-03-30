@@ -2,18 +2,6 @@ package day31_Constructors.scrumTask;
 
 public class Developer {
 
-    /*
-    create a class called Developer
-	          Attributes:
-	            name, employeeID, JobTitle, Salary
-
-	          Add A constructor that can set all the fileds
-
-	          Actions:
-	            coding(), unitTesting(), fixingBug(), toString()
-
-     */
-
     public String name;
     public int employeeID;
     public String jobTitle;
@@ -26,7 +14,6 @@ public class Developer {
         this.salary = salary;
     }
 
-    @Override
     public String toString() {
         return "Developer{" +
                 "name='" + name + '\'' +
@@ -37,22 +24,28 @@ public class Developer {
     }
 
     public void coding(){
-        System.out.println(name+" is coding");
+        System.out.println(name+ " is coding");
     }
 
     public void unitTesting(){
-        System.out.println(name+" is unit testing");
+        System.out.println(name+ " is unit testing");
     }
 
     public void fixingBug(){
-        System.out.println(name+" is fixing bug");
+        System.out.println(name+ " is fixing bug");
     }
-
-
-
-
-
 
 
 
 }
+
+/*
+create a class called Developer
+	          Attributes:
+	            name, employeeID, JobTitle, Salary
+
+	          Add A constructor that can set all the fileds
+
+	          Actions:
+	            coding(), unitTesting(), fixingBug(), toString()
+ */
