@@ -1,0 +1,44 @@
+-Variables are containers that store data
+-String is sequence(sıra, dizi) of characters
+
+-Variable types:
+
+1-primitive
+-numberical primitives: double>float>long>int>short>byte
+-boolean
+-char
+
+2-non-primitive
+-string
+
+how to declare variables:
+dataType variableName= data; (assigning variables from right to left!!!)
+
+Variable Naming Rules:
+1-Must be unique(inside the same block-method)
+2-Lower camelCase
+3-We cannot start with numbers
+4-We cannot use Java Reserved words
+5-For special character _(under score), $(dolar sign) we can start
+6-Make it readable and understandable
+
+implicit casting- it is done by compiler(assigning small data type to larger one)
+
+explicit casting-done by developer, done by manually(assigning larger data type to smaller one)
+float myFloat=(float) 12.5; ya da float myFloat=12.5F; --default data type for compiler is double, so we have to do casting to tell that it is float!!
+
+string+int - concatenation(2 different data type!!)-firstNumber=10, secondNumber=20->
+ firstNumber+" + "+secondNumber+" = "+firstNumber+secondNumber => 10 + 20 =1020 !!!
+ 10+string+20+string+int+int
+ string+20+string+int+int
+ string+string+int+int
+ string+int+int
+ string+int
+ string
+
+benefit of using variables:
+we declare only one time and we use it with variableName in the next codes,
+we can change the data easily by going to variable
+but otherwise we have to change the data from all the next codes.
+
+
